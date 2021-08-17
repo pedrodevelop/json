@@ -1,26 +1,18 @@
-{
-	"billingCycles": [
-		{
-			"id":1, "Name": "Janeiro/20", "Month":1, "Year":"2020",
-			"credits": [
-					{"id":1, "Name": "Transferência", "Status":"Recebido", "Value":1000.00},
-					{"id":2, "Name": "Salário", "Status":"Recebido", "Value":1500.00}
-			],
-			"debts": [
-					{"id":1, "Name": "Telefone", "Status":"Pago", "Value":100.00},
-					{"id":2, "Name": "Internet", "Status":"Pago", "Value":150.00}
-			]
-		},
-		{
-			"id":2, "Name": "fevereiro/20", "Month":2, "Year":"2020",
-			"credits": [
-					{"id":1, "Name": "Transferência", "Status":"Recebido", "Value":1500.00},
-					{"id":1, "Name": "Salário", "Status":"Recebido", "Value":2000.00}
-			],
-			"debts": [
-					{"id":1, "Name": "Telefone", "Status":"Pago", "Value":150.00},
-					{"id":2, "Name": "Internet", "Status":"Pago", "Value":200.00}
-			]
-		}
-	]
+
+  "cursos": [
+    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
+    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
+    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
+    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+  ],
+  "alunos": [
+    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
+    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
+    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
+    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
+    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+  ],
+  "empresa": {
+    "nome": "Code Prestige"
+  }
 }
